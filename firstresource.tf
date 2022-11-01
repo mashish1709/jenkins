@@ -12,6 +12,6 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Testresource1"
+    Name = "Testresource2"
   }
 }
