@@ -3,7 +3,7 @@ pipeline {
     
     parameters {
         choice (name: 'action',
-				choices: ['plan','apply','destroy'],
+				choices: ['apply','destroy'],
 				description: 'Terraform plan, apply, destroy command')
 		choice (name: 'workspace',
 				choices: ['prod','testing'],
